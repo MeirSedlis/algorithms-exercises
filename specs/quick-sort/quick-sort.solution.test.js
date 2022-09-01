@@ -23,7 +23,7 @@ function quickSort(nums) {
 
   // sort all smaller numbers than the pivot into left
   // and all bigger numbers into right
-  for (let i = 0; i < nums.length - 1; i++) {
+  for (let i = 0; i < nums.length - 1; i++) { 
     if (nums[i] < pivot) {
       left.push(nums[i]);
     } else {
